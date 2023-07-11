@@ -18,8 +18,8 @@ initUserHiddenMessage: { type: 'text', text: 'Hi'},
 colors:{branding: '#2682f7', text: '#212121', textLight: '#737373'},
 conversationBeginPosition:'top',
 enableDraggableButton:false,
-width:'95vw',
-height:'80vh',
+width:'30vw',
+height:'50vh',
 enableSpeech:true,
 clientAuthEnabled: false,
 enableAutocomplete: true,
@@ -46,6 +46,6 @@ function runODA(){
   setTimeout(function() {
     console.log("----RUN ODA  TO SHO---")
     loadODA();
-  }, 10000);
+  }, 2000);
 }
 runODA()

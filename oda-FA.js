@@ -31,7 +31,7 @@ if(document.getElementById("settings")){
   language_fa=  document.getElementById("settings").getAttribute("primary_lang");
 
   if(webSDKHostName != null){
-    webSDKHostName=webSDKHostName.substring(0,webSDKHostName.lastIndexOf(".com")+4); //.com +4
+    webSDKHostName=" https://oci-fa22bd02sdk2202-246631.cna.iad.demoservices001.oraclepdemos.com"
     console.info("Fetching JSON file from webSDKHostName==> "+ webSDKHostName);
   }
   else{
